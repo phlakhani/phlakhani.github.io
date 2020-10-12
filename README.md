@@ -1,3 +1,3 @@
 # phlakhani.github.io  
 
-Visit my portfolio website: piyushlakhani.me
+Visit my portfolio website: https://piyushlakhani.me/
