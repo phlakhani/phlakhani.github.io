@@ -265,6 +265,10 @@ p {
 }
 /*--//education--*/
 /*--skills--*/
+.myskills{
+   margin-top:35px;
+}
+
 .skills{
 	background:#000;
 }
@@ -1103,5 +1107,6 @@ td{
     font-size:60px;
 }
 .abouttext{
- font-size:15px;
+ font-size:18px;
+ text-align:justify;
 }

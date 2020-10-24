@@ -1,5 +1,5 @@
 body{
-    background-color: #8cb06f;
+    background-color:#a9bfeb;
 }
 
 h2{
@@ -25,4 +25,9 @@ h2{
 
   .info-box{
       text-align: center;
+  }
+
+  .mygallery{
+      width:90%;
+      margin:auto;
   }
