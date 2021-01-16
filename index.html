@@ -580,12 +580,12 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="contact-form">
-						<form action="https://formspree.io/f/xjvpykbe" method="POST">
+						<form  action="https://formspree.io/f/xjvpykbe" method="POST">
 							<input type="text" name="Name" placeholder="Name" required="">
-							<input class="email" name="Reply to:" type="text" placeholder="Email" required="">
+							<input class="email" name="Reply to:" type="text" placeholder="Email" id="email" onchange="controle(this.value)" required="">
 							<input class="phone" name="phone" type="text" placeholder="Phone (Optional)">
 							<textarea name="Message" placeholder="Message" required=""></textarea>
-							<input type="submit" value="SEND" >
+							<input type="submit" id="sb" value="SEND" disabled="true">
 						</form>
 					</div>
 				</div>
@@ -622,5 +622,6 @@
 	<!--//smooth-scrolling-of-move-up-->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/emailValidation.js"></script>
 </body>
 </html>
